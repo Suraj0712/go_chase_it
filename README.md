@@ -5,7 +5,7 @@
 ## Project 02: Go Chase It!
 
 ### Go Chase It!
-![alt txt](docs/docs/Gazebo_demo.png)
+![alt txt](docs/Gazebo_demo.png)
 
 ### Directory Structure
 ```
@@ -83,5 +83,5 @@ $ rosrun rqt_image_view rqt_image_view
 Now, put the white ball at different positions in front of the robot to see how robot moves to chase the white ball!
 
 ### Go Chase It!
-![alt txt](docs/docs/RViz_demo.png)
+![alt txt](docs/RViz_demo.png)
 
