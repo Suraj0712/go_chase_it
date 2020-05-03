@@ -4,13 +4,12 @@
 
 ## Project 02: Go Chase It!
 
-<p align="center">
-    <img src="./docs/Gazebo_demo.mp4" width="600" height="338" title="Go Chase It!" >
-</p>
+### Go Chase It!
+![alt txt](docs/docs/Gazebo_demo.png)
 
-### D
-
-.go_chase_it                              # Project 02: Go Chase It!
+### Directory Structure
+```
+.go_chase_it
 ├── docs
 │   ├── Gazebo_demo.mp4
 │   └── RViz_demo.mp4
@@ -20,7 +19,7 @@
 │   └── model.sdf
 ├── README.md
 └── src
-    ├── ball_chaser                      # ball_chaser package
+    ├── ball_chaser
     │   ├── CMakeLists.txt
     │   ├── include
     │   │   └── ball_chaser
@@ -28,8 +27,8 @@
     │   │   └── ball_chaser.launch
     │   ├── package.xml
     │   ├── src
-    │   │   ├── drive_bot.cpp            # Robot driver node
-    │   │   └── process_image.cpp        # Image processing node
+    │   │   ├── drive_bot.cpp
+    │   │   └── process_image.cpp
     │   └── srv
     │       └── DriveToTarget.srv
     ├── CMakeLists.txt -> /opt/ros/kinetic/share/catkin/cmake/toplevel.cmake
@@ -46,9 +45,8 @@
         │   └── my_robot.xacro
         └── worlds
             ├── empty.world
-            └── my_world.world        # World file   
-
-
+            └── my_world.world
+```
 
 ### How to run
 
@@ -84,6 +82,6 @@ $ rosrun rqt_image_view rqt_image_view
 
 Now, put the white ball at different positions in front of the robot to see how robot moves to chase the white ball!
 
-<p align="center">
-    <img src="./docs/RViz_demo.mp4" width="600" height="338" title="Go Chase It!" >
-</p>
+### Go Chase It!
+![alt txt](docs/docs/RViz_demo.png)
+
